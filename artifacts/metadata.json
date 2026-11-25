@@ -1,0 +1,29 @@
+{
+    "threshold": 0.1,
+    "model_name": "FaultNet",
+    "feature_columns": [
+        "Type",
+        "Air temperature",
+        "Process temperature",
+        "Rotational speed",
+        "Torque",
+        "Tool wear"
+    ],
+    "encoded_columns": [
+        "Air temperature",
+        "Process temperature",
+        "Rotational speed",
+        "Torque",
+        "Tool wear",
+        "Type_H",
+        "Type_L",
+        "Type_M"
+    ],
+    "numeric_columns": [
+        "Air temperature",
+        "Process temperature",
+        "Rotational speed",
+        "Torque",
+        "Tool wear"
+    ]
+}

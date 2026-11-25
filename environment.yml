@@ -1,0 +1,21 @@
+name: predictive-maintenance
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.12.12
+  - numpy=2.4.2
+  - pandas=3.0.0
+  - scikit-learn=1.7.1
+  - joblib=1.5.3
+  - pytest=9.1.1
+  - httpx=0.28.1
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cpu
+      - torch==2.15.0+cpu
+      - fastapi==0.165.0
+      - pydantic==2.14.4
+      - uvicorn==0.54.0
+      - ucimlrepo==0.0.7
